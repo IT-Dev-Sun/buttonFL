@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+#component {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+  background-color: #6200ee;
+}
+
+#component:hover {
+  background-color: #facc15;
+}
+#component:active {
+  background-color: #000;
+}
+/* .boxContainer {
+  width: var(--box-size);
+  position: relative;
+} */
+
+/* .boxContainer:active {
+  background-color: #ff00f7;
+    } */
+
+#box {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  position:absolute;
+  transform-origin: center bottom;
+}
+
+#dust {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  bottom: 0px;
+  background-color: #FF00F7;
+}
+
+#text {
+  position:absolute;
+  font-family: Roboto;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
